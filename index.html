@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en" id="dark-schem">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/4cdb3d49b8.js" crossorigin="anonymous"></script>
+    <title>Social App By Charles</title>
+</head>
+<body>
+
+<!-- ----------------------Navbar------------------ -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+                <h2 class="logo"><span>  Let's</span> Chat</h2>
+            </a>
+            <ul>
+                <li><img src="images/notification.png" class=""></li>
+                <li><img src="images/inbox.png" class=""></li>
+                <li><img src="images/video.png" class=""></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search" id="search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+
+        </div>
+
+
+        <!-- --------------------------------Settings Menu-------------------------- -->
+        <div class="setiting-menu">
+
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                       <a href="profile.html">See Your Profile</a>
+                    </div>
+                </div>
+    
+                <hr>
+
+                <div class="user-profile">
+                    <img src="images/feedback.png" >
+                    <div>
+                        <p>Your Feedback</p>
+                       <a href="#">Help us improve User Interface</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="setting-icons">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="20px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="setting-icons">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="20px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="setting-icons">
+                    <a href="#">Display & Accessibility <img src="images/arrow.png" width="20px"> </a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="setting-icons">
+                    <a href="#">Logout <img src="images/arrow.png" width="20px"> </a>
+                </div>
+            </div>
+           
+        </div>
+    </nav>
+
+    <!-- ----------------container------------- -->
+    <div class="container">
+        <!-- -------------------left-side-bar-------------- -->
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href="#"><img src="images/news.png"> Latest News</a>
+                <a href="#"><img src="images/friends.png"> Friends</a>
+                <a href="#"><img src="images/group.png"> Group</a>
+                <a href="#"><img src="images/marketplace.png">Market Place</a>
+                <a href="#"><img src="images/watch.png">Watch</a>
+                <a href="">See More</a>
+            </div>
+            <div class="shortcut-links">
+                <p>Your Shourtcuts</p>
+                <a href="#"><img src="images/shortcut-1.png"> Web Developers </a>
+                <a href="#"><img src="images/shortcut-2.png"> Web Design Course </a>
+                <a href="#"><img src="images/shortcut-3.png">Full stack</a>
+                <a href="#"><img src="images/shortcut-4.png"> Websites Expert </a>
+            </div>
+
+        </div>
+        <!-- -------------------main-content-------------- -->
+        <div class="main-content">
+
+<!-- ----------------------story-container---------------- -->
+
+            <div class="story-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png">
+                    <p>Post Story</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png">
+                    <p>Alision</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png">
+                    <p>Charles</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png">
+                    <p>Kenny</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png">
+                    <p>Elizebeth</p>
+                </div>
+            </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" >
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <i class="fas fa-caret-down"></i> </small>
+                    </div>
+                </div>
+                
+            <div class="post-input-container">
+                <textarea rows="3" placeholder="What's on your mind, John"></textarea>
+                <div class="add-post-links">
+                    <a href="#"><img src="images/live-video.png" alt=""> Live Video</a>
+                    <a href="#"><img src="images/photo.png" alt=""> Photo/Video</a>
+                    <a href="#"><img src="images/feeling.png" alt="">Feeling Activities</a>
+                </div>
+            </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>Jan 4 2023, 13:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> Visit <span> @My Potfolio </span> to see other Amazing designs and web application
+                    <a href="#">#MyPortfolioLink</a><a href="#">#Github/Vercel</a>
+                </p>
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">140</div>
+                        <div><img src="images/comments.png">80</div>
+                        <div><img src="images/share.png">92</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>Kateline Trump</p>
+                            <span>Jan 4 2023, 13:40 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> Visit <span> @My Potfolio </span> to see my Face Recognition App
+                    <a href="#">#MyPortfolioLink</a><a href="#">#Github/Vercel</a>
+                </p>
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">90</div>
+                        <div><img src="images/comments.png">60</div>
+                        <div><img src="images/share.png">100</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>Emmy Roseline</p>
+                            <span>Oct 10 2022, 01:30 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> Visit <span> @My Potfolio </span> to see my Online Shop App
+                    <a href="#">#MyPortfolioLink</a><a href="#">#Github/Vercel</a>
+                </p>
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">50</div>
+                        <div><img src="images/comments.png">90</div>
+                        <div><img src="images/share.png">30</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>Bill Jordan</p>
+                            <span>April 4 2022, 09:50 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> Visit <span> @My Potfolio </span> to see my Music Player App
+                    <a href="#">#MyPortfolioLink</a><a href="#">#Github/Vercel</a>
+                </p>
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">70</div>
+                        <div><img src="images/comments.png">90</div>
+                        <div><img src="images/share.png">40</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" >
+                        <div>
+                            <p>Charles Emmanuel</p>
+                            <span>Jan 6 2023, 09:50 am</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fas fa-ellipsis-v"></i></a>
+                </div>
+               
+                <p class="post-text"> Visit <span> @My Potfolio </span> to see many other project like e.g Todo App, Calculator App, Recipe App and many more
+                    <a href="#">#MyPortfolioLink</a><a href="#">#Github/Vercel</a>
+                </p>
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png">79</div>
+                        <div><img src="images/comments.png">59</div>
+                        <div><img src="images/share.png">92</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <button type="button" class="load-more-btn"> Load More </button>
+
+        </div>
+        <!-- -------------------right-sidebar-------------- -->
+        <div class="right-sidebar">
+            <div class="sidebar-tittle">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Lagos, Nigeria</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>24</h3>
+                    <span>April</span>
+                </div>
+                <div class="right-event">
+                    <h4>Marriage</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Ibadan, Nigeria</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>31</h3>
+                    <span>December</span>
+                </div>
+                <div class="right-event">
+                    <h4>Dev Festival</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> UK, Sans Franse</p>
+                    <a href="#">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-tittle">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+
+            <div class="sidebar-tittle">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png">
+                </div>
+                <p>Alision Jakson</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png">
+                </div>
+                <p> Charles Emmanuel</p>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png">
+                </div>
+                <p>Sophia Rose</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2023 - EmmzyCod Made with Love</p>
+    </div>
+    <script>
+        var search = document.getElementById('search')
+        search.addEventListener('click', (s) => {
+           s.classList.add('search-boxs')
+        })
+    </script>
+</body>
+</html>
